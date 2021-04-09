@@ -1,4 +1,4 @@
-package com.hurricanedev.tictactoegames;
+package com.avarsolutions.tictactoegames;
 
 import org.junit.Test;
 

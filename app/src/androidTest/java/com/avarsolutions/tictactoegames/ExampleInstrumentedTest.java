@@ -1,4 +1,4 @@
-package com.hurricanedev.tictactoegames;
+package com.avarsolutions.tictactoegames;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hurricanedev.tictactoegames">
+    package="com.avarsolutions.tictactoegames">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".SplashActivity"
+        <activity android:name="com.avarsolutions.tictactoegames.SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,24 +22,24 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SettingsActivity"
+        <activity android:name="com.avarsolutions.tictactoegames.SettingsActivity"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".TwoNameActivity"
+        <activity android:name="com.avarsolutions.tictactoegames.TwoNameActivity"
             android:windowSoftInputMode="adjustResize"
 
             >   </activity>
-        <activity android:name=".NameActivity"
+        <activity android:name="com.avarsolutions.tictactoegames.NameActivity"
             android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".MainActivity"
+        <activity android:name="com.avarsolutions.tictactoegames.MainActivity"
             android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".ChooseActivity"
+        <activity android:name="com.avarsolutions.tictactoegames.ChooseActivity"
             android:screenOrientation="portrait"
             >
         </activity>
-        <activity android:name=".SceneActivity"
+        <activity android:name="com.avarsolutions.tictactoegames.SceneActivity"
             android:screenOrientation="portrait" >
         </activity>
     </application>

@@ -1,4 +1,4 @@
-package com.hurricanedev.tictactoegames;
+package com.avarsolutions.tictactoegames;
 
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;

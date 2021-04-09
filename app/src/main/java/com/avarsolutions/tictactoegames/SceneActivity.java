@@ -1,4 +1,4 @@
-package com.hurricanedev.tictactoegames;
+package com.avarsolutions.tictactoegames;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -1105,6 +1105,9 @@ public class SceneActivity extends AppCompatActivity {
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 editor.clear();
                 editor.apply();
+                Intent intent = new Intent(getApplicationContext(),SplashActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
